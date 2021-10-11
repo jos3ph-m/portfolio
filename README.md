@@ -1,1 +1,1 @@
-# Gatsby-Strapi Portfolio Starter
+# Gatsby-Strapi Portfolio
