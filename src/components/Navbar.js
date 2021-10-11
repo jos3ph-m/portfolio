@@ -5,7 +5,7 @@ import pageLinks from "../constants/links"
 import { Link } from "gatsby"
 
 const Navbar = () => {
-  return <h2>navbar component</h2>
+  return <nav>navbar component</nav>
 }
 
 export default Navbar
