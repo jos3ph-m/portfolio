@@ -9,7 +9,9 @@ const Navbar = () => {
     <div className="nav-center">
       <div className="nav-header">
         <img src={logo} alt="web dev" />
-        <button type="button" className="toggle-btn"></button>
+        <button type="button" className="toggle-btn">
+          <FaAlignRight/>
+        </button>
       </div>
     </div>
     </nav>
