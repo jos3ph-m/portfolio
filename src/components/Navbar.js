@@ -13,6 +13,9 @@ const Navbar = () => {
           <FaAlignRight/>
         </button>
       </div>
+      <div className="nav-links">
+        
+      </div>
     </div>
     </nav>
 }
