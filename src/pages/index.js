@@ -8,7 +8,7 @@ import Seo from "../components/Seo"
 const IndexPage = () => {
   return (
     <>
-      
+      <main></main>
     </>
   )
 }
