@@ -16,6 +16,7 @@ const Navbar = () => {
       <div className="nav-links">
         {pageLinks.map((link) => {
           return <Link key={link.id} to={link.url}>
+            {link.text}
             </Link>
         })}
       </div>
