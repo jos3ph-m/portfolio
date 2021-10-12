@@ -14,7 +14,10 @@ const Navbar = () => {
         </button>
       </div>
       <div className="nav-links">
-        
+        {pageLinks.map((link) => {
+          return <Link key={link.id} to={link.url}>
+            </Link>
+        })}
       </div>
     </div>
     </nav>
