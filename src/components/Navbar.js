@@ -9,6 +9,7 @@ const Navbar = () => {
     <div className="nav-center">
       <div className="nav-header">
         <img src={logo} alt="web dev" />
+        <button></button>
       </div>
     </div>
     </nav>
