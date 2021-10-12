@@ -15,9 +15,9 @@ const Navbar = () => {
       </div>
       <div className="nav-links">
         {pageLinks.map((link) => {
-          return <Link key={link.id} to={link.url}>
+          return (<Link key={link.id} to={link.url}>
             {link.text}
-            </Link>
+            </Link>)
         })}
       </div>
     </div>
