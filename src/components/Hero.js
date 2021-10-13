@@ -5,7 +5,11 @@ import socialLinks from "../constants/social_links"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Hero = () => {
-  return <header className="hero">hero component</header>
+  return <header className="hero">
+    <section className="section-center hero-center">
+      
+    </section>
+  </header>
 }
 
 export default Hero
