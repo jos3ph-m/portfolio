@@ -15,7 +15,11 @@ const Hero = () => {
             <Link to="/contact" className="btn">
               contact me
             </Link>
-            <div className="social-links"></div>
+            <div className="social-links">
+              {socialLinks.map((link) => {
+                return <a href={link.url} key={link.id}></a>
+              })}
+            </div>
           </div>
         </div>
       </article>
