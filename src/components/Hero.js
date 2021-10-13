@@ -7,7 +7,7 @@ import { StaticImage } from "gatsby-plugin-image"
 const Hero = () => {
   return <header className="hero">
     <section className="section-center hero-center">
-      
+      <article className="hero-info"></article>
     </section>
   </header>
 }
