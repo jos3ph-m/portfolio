@@ -10,7 +10,7 @@ const Hero = () => {
       <article className="hero-info">
         <div>
           <div className="underline">
-            <h1></h1>
+            <h1>I'm Joseph</h1>
           </div>
         </div>
       </article>
