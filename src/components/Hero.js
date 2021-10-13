@@ -8,6 +8,7 @@ const Hero = () => {
   return <header className="hero">
     <section className="section-center hero-center">
       <article className="hero-info"></article>
+      <StaticImage src="../assets/images/hero.svg"></StaticImage>
     </section>
   </header>
 }
