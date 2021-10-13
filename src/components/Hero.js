@@ -11,6 +11,11 @@ const Hero = () => {
         <div>
           <div className="underline">
             <h1>I'm Joseph</h1>
+            <h4>freelance web and mobile UI/UX designer</h4>
+            <Link to="/contact" className="btn">
+              contact me
+            </Link>
+            <div className="social-links"></div>
           </div>
         </div>
       </article>
