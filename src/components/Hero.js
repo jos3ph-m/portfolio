@@ -8,7 +8,7 @@ const Hero = () => {
   return <header className="hero">
     <section className="section-center hero-center">
       <article className="hero-info"></article>
-      <StaticImage src="../assets/images/hero.svg" alt="portfolio" className="hero-img"></StaticImage>
+      <StaticImage src="../assets/images/hero.svg" alt="portfolio" className="hero-img" placeholder="blurred"></StaticImage>
     </section>
   </header>
 }
