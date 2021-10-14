@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
       </article>
       {/* <StaticImage src="../assets/images/hero.svg" alt="portfolio" className="hero-img" placeholder="blurred"></StaticImage> */}
-      <img src={heroImg} alt="portfolio" className="hero-img-svg"/>
+      {/* <img src={heroImg} alt="portfolio" className="hero-img-svg"/> */}
     </section>
   </header>
 }
