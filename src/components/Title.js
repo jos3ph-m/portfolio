@@ -1,7 +1,9 @@
 import React from "react"
 
 const Title = ({title}) => {
-  return <h2>title component</h2>
+  return <div>
+    <h2></h2>
+  </div>
 }
 
 export default Title
