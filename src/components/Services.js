@@ -5,7 +5,12 @@ const Services = () => {
   return (
     <section className="section bg-grey">
       <Title title="services" />
-      <div className="section-center services-center">{}</div>
+      <div className="section-center services-center">
+        {services.map(service => {
+          const { id, icon, title, text } = service
+          return <article key={id} className="service"></article>
+        })}
+      </div>
     </section>
   )
 }
