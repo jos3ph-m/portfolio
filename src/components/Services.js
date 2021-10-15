@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <section className="section bg-grey">
       <Title title="services" />
-      <div className="section-center services-center"></div>
+      <div className="section-center services-center">{}</div>
     </section>
   )
 }
