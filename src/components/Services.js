@@ -12,6 +12,7 @@ const Services = () => {
             <article key={id} className="service">
               {icon}
               <h4>{title}</h4>
+              <div className="underline"></div>
             </article>
           )
         })}
