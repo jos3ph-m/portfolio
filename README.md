@@ -1,3 +1,3 @@
 # Gatsby-Strapi Portfolio
 
-More to come!
+More to come soon!
