@@ -18,6 +18,10 @@ module.exports = {
         path: `${__dirname}/src/assets/images`,
       },
     },
+    {
+      resolve: "gatsby-source-strapi",
+      options: {},
+    },
     `gatsby-plugin-react-helmet`,
   ],
 }
