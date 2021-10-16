@@ -24,7 +24,7 @@ module.exports = {
         apiURL: "http://localhost:1337",
         queryLimit: 1000, // Defaults to 100
         collectionTypes: ["article", "user"],
-        singleTypes: ["home-page"],
+        singleTypes: ["home-page", "contact"],
       },
     },
     `gatsby-plugin-react-helmet`,
