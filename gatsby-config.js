@@ -20,7 +20,9 @@ module.exports = {
     },
     {
       resolve: "gatsby-source-strapi",
-      options: {},
+      options: {
+        apiURL: "http://localhost:1337",
+      },
     },
     `gatsby-plugin-react-helmet`,
   ],
