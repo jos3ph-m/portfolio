@@ -23,7 +23,7 @@ const query = graphql`
 const Jobs = () => {
   const data = useStaticQuery(query)
   console.log(data)
-  return <h2>jobs component</h2>
+  return <section></section>
 }
 
 export default Jobs
