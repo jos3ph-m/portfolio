@@ -24,7 +24,7 @@ const Jobs = () => {
   const data = useStaticQuery(query)
   console.log(data)
   return (
-    <section>
+    <section className="section jobs">
       <Title title="experience" />
     </section>
   )
