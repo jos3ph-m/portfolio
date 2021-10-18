@@ -18,15 +18,15 @@ module.exports = {
         path: `${__dirname}/src/assets/images`,
       },
     },
+    `gatsby-plugin-react-helmet`,
     {
-      resolve: "gatsby-source-strapi",
+      resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: "http://localhost:1337",
+        apiURL: `http://localhost:1337`,
         queryLimit: 1000, // Defaults to 100
-        collectionTypes: ["article", "user"],
-        singleTypes: ["home-page", "contact"],
+        collectionTypes: [`article`, `user`],
+        singleTypes: [`home-page`, `contact`],
       },
     },
-    `gatsby-plugin-react-helmet`,
   ],
 }
