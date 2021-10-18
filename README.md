@@ -1,3 +1,3 @@
 # Gatsby-Strapi Portfolio
 
-More to come soon!
+Portfolio built using Gatsby and Strapi. More to come soon!
