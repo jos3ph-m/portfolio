@@ -40,7 +40,7 @@ const Jobs = () => {
           {desc.map(item => {
             return (
               <div key={item.id} className="job-desc">
-                <FaAngleDoubleRight className="job-icon" />
+                <FaAngleDoubleRight className="job-icon"></FaAngleDoubleRight>
                 <p>{item.name}</p>
               </div>
             )
