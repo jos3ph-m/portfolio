@@ -30,7 +30,9 @@ const Jobs = () => {
     <section className="section jobs">
       <Title title="experience" />
       <div className="jobs-center"></div>
-      <Link to="/about" className="btn center-btn"></Link>
+      <Link to="/about" className="btn center-btn">
+        more info
+      </Link>
     </section>
   )
 }
