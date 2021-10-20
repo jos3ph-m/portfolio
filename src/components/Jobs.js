@@ -37,6 +37,7 @@ const Jobs = () => {
           <h3>{position}</h3>
           <h4>{company}</h4>
           <p className="job-date">{date}</p>
+          {desc.map(() => {})}
         </article>
       </div>
       <Link to="/about" className="btn center-btn">
