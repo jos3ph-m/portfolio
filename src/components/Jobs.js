@@ -29,6 +29,7 @@ const Jobs = () => {
   return (
     <section className="section jobs">
       <Title title="experience" />
+      <div className="jobs-center"></div>
     </section>
   )
 }
