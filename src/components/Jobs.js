@@ -36,7 +36,7 @@ const Jobs = () => {
         <article className="job-info">
           <h3>{position}</h3>
           <h4>{company}</h4>
-          <p className="job-date"></p>
+          <p className="job-date">{date}</p>
         </article>
       </div>
       <Link to="/about" className="btn center-btn">
