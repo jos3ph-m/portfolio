@@ -25,7 +25,7 @@ const Jobs = () => {
   const {
     allStrapiJob: { nodes: jobs },
   } = data
-  const { company, position, date, description } = jobs[0]
+  const { company, position, date, desc } = jobs[0]
   return (
     <section className="section jobs">
       <Title title="experience" />
