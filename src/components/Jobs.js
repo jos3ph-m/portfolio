@@ -35,6 +35,7 @@ const Jobs = () => {
         {/* job info */}
         <article className="job-info">
           <h3>{position}</h3>
+          <h4></h4>
         </article>
       </div>
       <Link to="/about" className="btn center-btn">
