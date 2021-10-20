@@ -32,6 +32,8 @@ const Jobs = () => {
       <div className="jobs-center">
         {/* btn container */}
         <div className="btn-container"></div>
+        {/* job info */}
+        <article></article>
       </div>
       <Link to="/about" className="btn center-btn">
         more info
