@@ -22,7 +22,7 @@ const query = graphql`
 
 const Jobs = () => {
   const data = useStaticQuery(query)
-  console.log(data)
+
   return (
     <section className="section jobs">
       <Title title="experience" />
