@@ -32,7 +32,7 @@ const Jobs = () => {
       <div className="jobs-center">
         {/* btn container */}
         <div className="btn-container">{jobs.map((item, index)=>{
-          return <button key={index}></button>
+          return <button key={index} className="job-btn"></button>
         }}</div>
         {/* job info */}
         <article className="job-info">
