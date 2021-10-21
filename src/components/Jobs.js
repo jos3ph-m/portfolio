@@ -33,7 +33,11 @@ const Jobs = () => {
         {/* btn container */}
         <div className="btn-container">
           {jobs.map((item, index) => {
-            return <button key={index} className="job-btn"></button>
+            return (
+              <button key={index} className="job-btn">
+                {item.company}
+              </button>
+            )
           })}
         </div>
         {/* job info */}
