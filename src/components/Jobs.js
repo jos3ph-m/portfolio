@@ -8,6 +8,7 @@ const query = graphql`
   {
     allStrapiJob(sort: { fields: created_at, order: DESC }) {
       nodes {
+        company
         date
         desc {
           id
