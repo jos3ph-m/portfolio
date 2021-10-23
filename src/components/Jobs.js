@@ -14,6 +14,7 @@ const query = graphql`
           id
           name
         }
+        position
       }
     }
   }
