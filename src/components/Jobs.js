@@ -35,7 +35,11 @@ const Jobs = () => {
         <div className="btn-container">
           {jobs.map((item, index) => {
             return (
-              <button key={index} className="job-btn" onClick={}>
+              <button
+                key={index}
+                className="job-btn"
+                onClick={() => setValue(index)}
+              >
                 {item.company}
               </button>
             )
