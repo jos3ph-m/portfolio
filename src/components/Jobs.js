@@ -37,7 +37,7 @@ const Jobs = () => {
             return (
               <button
                 key={index}
-                className={index === value ? "job-btn active-btn"}
+                className={index === value ? "job-btn active-btn" : "job-btn"}
                 onClick={() => setValue(index)}
               >
                 {item.company}
