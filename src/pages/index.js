@@ -6,7 +6,9 @@ import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
 import Seo from "../components/Seo"
 const IndexPage = ({ data }) => {
-  console.log(data)
+  const {
+    allStrapiProject: { nodes: projects },
+  } = data
   return (
     <>
       <main>
