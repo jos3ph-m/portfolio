@@ -8,7 +8,7 @@ const Projects = ({ projects, title, showLink }) => {
       <Title title={title} />
       <div className="section-center projects-center">
         {projects.map(project => {
-          return <Project />
+          return <Project key={project.id} />
         })}
       </div>
       {showLink && (
