@@ -13,7 +13,7 @@ const IndexPage = ({ data }) => {
         <Hero />
         <Services />
         <Jobs />
-        <Projects />
+        <Projects title="featured project" />
       </main>
     </>
   )
