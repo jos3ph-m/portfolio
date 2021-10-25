@@ -6,7 +6,9 @@ const Projects = ({ projects, title, showLink }) => {
   return (
     <section className="section projects">
       <Title title={title} />
-      <div className="section-center projects-center"></div>
+      <div className="section-center projects-center">
+        {projects.map(() => {})}
+      </div>
       {showLink && (
         <Link to="/projects" className="btn center-btn">
           projects
