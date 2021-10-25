@@ -2,7 +2,7 @@ import React from "react"
 import Title from "./Title"
 import Project from "./Project"
 import { Link } from "gatsby"
-const Projects = ({ projects }) => {
+const Projects = ({ projects, title }) => {
   return (
     <section>
       <Title />
