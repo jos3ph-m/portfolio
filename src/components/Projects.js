@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 const Projects = ({ projects, title, showLink }) => {
   return (
     <section>
-      <Title />
+      <Title title={title} />
     </section>
   )
 }
