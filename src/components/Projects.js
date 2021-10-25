@@ -7,6 +7,7 @@ const Projects = ({ projects, title, showLink }) => {
     <section className="section projects">
       <Title title={title} />
       <div className="section-center projects-center"></div>
+      {showLink}
     </section>
   )
 }
