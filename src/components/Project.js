@@ -3,7 +3,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { FaGithubSquare, FaShareSquare } from "react-icons/fa"
 import { Link } from "gatsby"
 
-const Project = ({ description, title, github, stack }) => {
+const Project = ({ description, title, github, stack, url }) => {
   return <h2>single project component</h2>
 }
 
