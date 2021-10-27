@@ -35,6 +35,9 @@ const Project = ({
           <a href={github}>
             <FaGithubSquare className="project-icon"></FaGithubSquare>
           </a>
+          <a href={url}>
+            <FaShareSquare className="project-icon"></FaShareSquare>
+          </a>
         </div>
       </div>
     </article>
