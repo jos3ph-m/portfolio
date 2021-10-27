@@ -22,7 +22,7 @@ const Project = ({
       />
       <div className="project-info">
         <span className="project-number">0{index + 1}.</span>
-        <Link to={`/projects/${slug}`}></Link>
+        <Link to={`/projects/${slug}`} className="project-slug"></Link>
       </div>
     </article>
   )
