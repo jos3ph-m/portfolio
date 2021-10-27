@@ -31,6 +31,11 @@ const Project = ({
             return <span key={item.id}>{item.title}</span>
           })}
         </div>
+        <div className="project-links">
+          <a href={github}>
+            <FaGithubSquare className="project-icon"></FaGithubSquare>
+          </a>
+        </div>
       </div>
     </article>
   )
