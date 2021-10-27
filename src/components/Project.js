@@ -25,6 +25,7 @@ const Project = ({
         <Link to={`/projects/${slug}`} className="project-slug">
           <h3>{title}</h3>
         </Link>
+        <p className="project-desc"></p>
       </div>
     </article>
   )
