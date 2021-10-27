@@ -26,7 +26,7 @@ const Project = ({
           <h3>{title}</h3>
         </Link>
         <p className="project-desc">{description}</p>
-        <div className="project-stack">{}</div>
+        <div className="project-stack">{stack.map()}</div>
       </div>
     </article>
   )
