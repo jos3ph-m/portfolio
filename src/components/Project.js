@@ -26,6 +26,7 @@ const Project = ({
           <h3>{title}</h3>
         </Link>
         <p className="project-desc">{description}</p>
+        <div className="project-stack"></div>
       </div>
     </article>
   )
