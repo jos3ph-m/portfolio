@@ -13,7 +13,11 @@ const Project = ({
   index,
   slug,
 }) => {
-  return <article>single project component</article>
+  return (
+    <article className="project">
+      <GatsbyImage></GatsbyImage>
+    </article>
+  )
 }
 
 export default Project
