@@ -15,7 +15,11 @@ const Project = ({
 }) => {
   return (
     <article className="project">
-      <GatsbyImage image={getImage(image)} className="project-img" />
+      <GatsbyImage
+        image={getImage(image)}
+        className="project-img"
+        alt={title}
+      />
     </article>
   )
 }
