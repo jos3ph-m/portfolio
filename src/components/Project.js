@@ -13,7 +13,7 @@ const Project = ({
   index,
   slug,
 }) => {
-  return <h2>single project component</h2>
+  return <article>single project component</article>
 }
 
 export default Project
