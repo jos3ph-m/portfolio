@@ -20,6 +20,9 @@ const Project = ({
         className="project-img"
         alt={title}
       />
+      <div className="project-info">
+        <span className="project-number"></span>
+      </div>
     </article>
   )
 }
