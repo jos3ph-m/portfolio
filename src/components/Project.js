@@ -21,7 +21,7 @@ const Project = ({
         alt={title}
       />
       <div className="project-info">
-        <span className="project-number"></span>
+        <span className="project-number">0{index + 1}</span>
       </div>
     </article>
   )
