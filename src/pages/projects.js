@@ -18,4 +18,31 @@ const ProjectsPage = ({
   )
 }
 
+export const query = graphql`
+  {
+    allStrapiProject {
+      nodes {
+        description
+        featured
+        github
+        id
+        slug
+        title
+        url
+        stack {
+          id
+          title
+        }
+        image {
+          localFile {
+            childImageSharp {
+              gatsbyImageData(placeholder: BLURRED, layout: CONSTRAINED)
+            }
+          }
+        }
+      }
+    }
+  }
+`
+
 export default ProjectsPage
