@@ -6,7 +6,9 @@ const ProjectsPage = () => {
   return (
     <>
       <main>
-        <section className="projects-page"></section>
+        <section className="projects-page">
+          <Projects title="all projects"
+        </section>
       </main>
     </>
   )
