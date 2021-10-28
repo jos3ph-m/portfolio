@@ -1,6 +1,6 @@
 import React from 'react'
 
-const {StrapiProject.title} = () => {
+const ProjectTemplate = () => {
   return (
     <div>
       
