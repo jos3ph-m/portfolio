@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react"
 
 const ProjectTemplate = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+  return <div></div>
 }
 
-export default {StrapiProject.title}
+export default ProjectTemplate
