@@ -6,7 +6,7 @@ const ProjectsPage = () => {
   return (
     <>
       <main>
-        <section></section>
+        <section className="projects-page"></section>
       </main>
     </>
   )
