@@ -7,7 +7,7 @@ const ProjectsPage = () => {
     <>
       <main>
         <section className="projects-page">
-          <Projects title="all projects"
+          <Projects title="all projects" />
         </section>
       </main>
     </>
