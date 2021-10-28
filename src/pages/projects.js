@@ -5,7 +5,9 @@ import Seo from "../components/Seo"
 const ProjectsPage = () => {
   return (
     <>
-      <main></main>
+      <main>
+        <section></section>
+      </main>
     </>
   )
 }
