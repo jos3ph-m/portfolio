@@ -1,9 +1,9 @@
 import React from "react"
 
-const ProjectTemplate = () => {
+const ProjectTemplate = ({ pageContext: { title } }) => {
   return (
     <div>
-      <h4></h4>
+      <h4>{title}</h4>
     </div>
   )
 }
