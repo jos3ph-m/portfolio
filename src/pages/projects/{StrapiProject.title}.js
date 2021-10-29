@@ -7,6 +7,7 @@ const ProjectTemplate = ({ pageContext: { title }, data }) => {
     <>
       <main className="project-template-page">
         <h2>{title}</h2>
+        <p></p>
       </main>
     </>
   )
