@@ -10,6 +10,18 @@ const ProjectTemplate = ({ pageContext: { title } }) => {
   )
 }
 
-export const query = graphql``
+export const query = graphql`
+  query getSingleProject($title: String) {
+    strapiProject(title: { eq: $title }) {
+      description
+      title
+      image {
+        localFile {
+          publicURL
+        }
+      }
+    }
+  }
+`
 
 export default ProjectTemplate
