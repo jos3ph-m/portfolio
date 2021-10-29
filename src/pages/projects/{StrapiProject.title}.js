@@ -3,11 +3,7 @@ import { graphql } from "gatsby"
 import Seo from "../../components/Seo"
 
 const ProjectTemplate = ({ pageContext: { title }, data }) => {
-  return (
-    <div>
-      <h4>{title}</h4>
-    </div>
-  )
+  return <></>
 }
 
 export const query = graphql`
