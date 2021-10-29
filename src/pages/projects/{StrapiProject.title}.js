@@ -5,7 +5,9 @@ import Seo from "../../components/Seo"
 const ProjectTemplate = ({ pageContext: { title }, data }) => {
   return (
     <>
-      <main className="project-template-page"></main>
+      <main className="project-template-page">
+        <h2>{title}</h2>
+      </main>
     </>
   )
 }
