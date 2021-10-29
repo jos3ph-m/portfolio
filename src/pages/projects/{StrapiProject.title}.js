@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Seo from "../../components/Seo"
 
-const ProjectTemplate = ({ pageContext: { title } }) => {
+const ProjectTemplate = ({ pageContext: { title }, data }) => {
   return (
     <div>
       <h4>{title}</h4>
