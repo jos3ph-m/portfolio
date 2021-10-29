@@ -10,4 +10,6 @@ const ProjectTemplate = ({ pageContext: { title } }) => {
   )
 }
 
+export const query = graphql``
+
 export default ProjectTemplate
