@@ -2,4 +2,4 @@
 
 Portfolio project built with [Gatsbyjs](https://www.gatsbyjs.com/) and [Strapi](https://strapi.io/).
 
-Coming soon!
+More to come soon!
