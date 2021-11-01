@@ -9,7 +9,7 @@ const About = ({ data }) => {
     <>
       <section className="about-page">
         <div className="section-center about-center">
-          <img src={image[0].localFile.publicURL} alt="" />
+          <img src={image[0].localFile.publicURL} alt={title} />
         </div>
       </section>
     </>
