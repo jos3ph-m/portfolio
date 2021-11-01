@@ -7,7 +7,7 @@ const About = ({ data }) => {
   const { strapiAbout: { title, image, info, stack } = data }
   return (
     <>
-      <section>
+      <section className="about-page">
         <div className="section-center about-center"></div>
       </section>
     </>
