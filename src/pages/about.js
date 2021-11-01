@@ -8,7 +8,9 @@ const About = ({ data }) => {
   return (
     <>
       <section className="about-page">
-        <div className="section-center about-center"></div>
+        <div className="section-center about-center">
+          <img src={image[0].localFile.publicURL} alt="" />
+        </div>
       </section>
     </>
   )
