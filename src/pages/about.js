@@ -5,7 +5,7 @@ import Seo from "../components/Seo"
 
 const About = ({ data }) => {
   const {
-    strapiAbout: { title, image },
+    strapiAbout: { title, image, info },
   }
   return (
     <>
