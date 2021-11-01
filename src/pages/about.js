@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import Title from "../components/Title"
 import Seo from "../components/Seo"
 
-const About = () => {
+const About = ({ data }) => {
   return (
     <>
       <h2>about page</h2>
