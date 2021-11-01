@@ -11,4 +11,22 @@ const About = () => {
   )
 }
 
+export const query = graphql`
+  {
+    strapiAbout {
+      info
+      title
+      stack {
+        id
+        title
+      }
+      image {
+        localFile {
+          publicURL
+        }
+      }
+    }
+  }
+`
+
 export default About
