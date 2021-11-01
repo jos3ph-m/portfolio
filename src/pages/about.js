@@ -4,7 +4,9 @@ import Title from "../components/Title"
 import Seo from "../components/Seo"
 
 const About = ({ data }) => {
-  const { strapiAbout }
+  const {
+    strapiAbout: { title },
+  }
   return (
     <>
       <h2>about page</h2>
