@@ -12,7 +12,7 @@ const About = ({ data }) => {
       <section className="about-page">
         <div className="section-center about-center">
           <img
-            src={image[0].localFile.publicURL}
+            src={image.localFile.publicURL}
             alt={title}
             className="about-img-svg"
           />
