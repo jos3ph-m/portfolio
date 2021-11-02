@@ -5,7 +5,9 @@ import Seo from "../components/Seo"
 const Error = () => {
   return (
     <>
-      <main>error page</main>
+      <main>
+        <div className="error-container"></div>
+      </main>
     </>
   )
 }
