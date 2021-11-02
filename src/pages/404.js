@@ -8,7 +8,9 @@ const Error = () => {
       <main className="error-page">
         <div className="error-container">
           <h1>oops it's a dead end</h1>
-          <Link to="/">back home</Link>
+          <Link to="/" className="btn">
+            back home
+          </Link>
         </div>
       </main>
     </>
