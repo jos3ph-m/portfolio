@@ -13,6 +13,7 @@ const Footer = () => {
             )
           })}
         </div>
+        <h4>copyright</h4>
       </div>
     </footer>
   )
