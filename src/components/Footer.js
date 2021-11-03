@@ -13,7 +13,7 @@ const Footer = () => {
             )
           })}
         </div>
-        <h4>copyright</h4>
+        <h4>copyright &copy; {new Date().getFullYear()}</h4>
       </div>
     </footer>
   )
