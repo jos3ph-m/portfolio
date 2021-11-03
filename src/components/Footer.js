@@ -14,6 +14,7 @@ const Footer = () => {
           })}
         </div>
         <h4>copyright &copy; {new Date().getFullYear()}</h4>
+        <span></span>
       </div>
     </footer>
   )
