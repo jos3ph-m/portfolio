@@ -8,7 +8,7 @@ const contact = () => {
           <h3>get in touch</h3>
           <form>
             <div className="form-group">
-              <input type="text" name="name" />
+              <input type="text" name="name" placeholder="name" />
             </div>
           </form>
         </article>
