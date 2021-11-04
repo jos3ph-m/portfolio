@@ -6,7 +6,9 @@ const contact = () => {
       <section className="contact-page">
         <article className="contact-form">
           <h3>get in touch</h3>
-          <form></form>
+          <form>
+            <div className="form-group"></div>
+          </form>
         </article>
       </section>
     </>
