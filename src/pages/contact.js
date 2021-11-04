@@ -3,7 +3,7 @@ import Seo from "../components/Seo"
 const contact = () => {
   return (
     <>
-      <h2>contact page</h2>
+      <section>contact page</section>
     </>
   )
 }
