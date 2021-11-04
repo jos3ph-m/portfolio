@@ -7,7 +7,9 @@ const contact = () => {
         <article className="contact-form">
           <h3>get in touch</h3>
           <form>
-            <div className="form-group"></div>
+            <div className="form-group">
+              <input type="text" />
+            </div>
           </form>
         </article>
       </section>
