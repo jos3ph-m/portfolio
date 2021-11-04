@@ -8,7 +8,12 @@ const contact = () => {
           <h3>get in touch</h3>
           <form>
             <div className="form-group">
-              <input type="text" name="name" placeholder="name" />
+              <input
+                type="text"
+                name="name"
+                placeholder="name"
+                className="form-control"
+              />
             </div>
           </form>
         </article>
