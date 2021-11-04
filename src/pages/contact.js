@@ -4,7 +4,9 @@ const contact = () => {
   return (
     <>
       <section className="contact-page">
-        <article className="contact-form"></article>
+        <article className="contact-form">
+          <h3></h3>
+        </article>
       </section>
     </>
   )
