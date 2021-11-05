@@ -20,7 +20,11 @@ const contact = () => {
                 placeholder="email"
                 className="form-control"
               />
-              <textarea name="message" rows="5"></textarea>
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="message"
+              ></textarea>
             </div>
           </form>
         </article>
