@@ -15,7 +15,7 @@ const contact = () => {
                 className="form-control"
               />
               <input
-                type="text"
+                type="email"
                 name="email"
                 placeholder="email"
                 className="form-control"
