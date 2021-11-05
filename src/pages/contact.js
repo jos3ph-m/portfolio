@@ -14,7 +14,12 @@ const contact = () => {
                 placeholder="name"
                 className="form-control"
               />
-              <input type="text" />
+              <input
+                type="text"
+                name="email"
+                placeholder="email"
+                className="form-control"
+              />
             </div>
           </form>
         </article>
