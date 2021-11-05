@@ -24,6 +24,7 @@ const contact = () => {
                 name="message"
                 rows="5"
                 placeholder="message"
+                className="form-control"
               ></textarea>
             </div>
           </form>
