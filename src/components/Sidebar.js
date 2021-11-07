@@ -5,7 +5,11 @@ import { Link } from "gatsby"
 import { FaTimes } from "react-icons/fa"
 const Sidebar = () => {
   const isOpen = true
-  return <aside className={isOpen ? "sidebar show-sidebar"}>sidebar component</aside>
+  return (
+    <aside className={isOpen ? "sidebar show-sidebar" : "sidebar"}>
+      sidebar component
+    </aside>
+  )
 }
 
 export default Sidebar
