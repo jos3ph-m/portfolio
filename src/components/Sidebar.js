@@ -21,7 +21,9 @@ const Sidebar = () => {
           })}
         </ul>
         <ul className={isOpen ? "social-links sidebar-links" : null}>
-          {socialLinks.map(link => {})}
+          {socialLinks.map(link => {
+            return <li key={link.id}></li>
+          })}
         </ul>
       </div>
     </aside>
