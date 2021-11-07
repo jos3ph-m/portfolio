@@ -7,7 +7,7 @@ const Sidebar = () => {
   const isOpen = true
   return (
     <aside className={isOpen ? "sidebar show-sidebar" : "sidebar"}>
-      sidebar component
+      <button></button>
     </aside>
   )
 }
