@@ -24,7 +24,9 @@ const Sidebar = () => {
           {socialLinks.map(link => {
             return (
               <li key={link.id}>
-                <a href={link.url} className="social-link"></a>
+                <a href={link.url} className="social-link">
+                  {link.icon}
+                </a>
               </li>
             )
           })}
