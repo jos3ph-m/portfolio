@@ -20,7 +20,7 @@ const Sidebar = () => {
             )
           })}
         </ul>
-        <ul></ul>
+        <ul className=""></ul>
       </div>
     </aside>
   )
