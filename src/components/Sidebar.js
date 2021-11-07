@@ -10,7 +10,9 @@ const Sidebar = () => {
       <button className="close-btn" type="button">
         <FaTimes />
       </button>
-      <div className="side-container"></div>
+      <div className="side-container">
+        <ul className={isOpen ? "sidebar-links" : null}></ul>
+      </div>
     </aside>
   )
 }
