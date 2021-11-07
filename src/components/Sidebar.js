@@ -10,6 +10,7 @@ const Sidebar = () => {
       <button className="close-btn" type="button">
         <FaTimes />
       </button>
+      <div className="side-container"></div>
     </aside>
   )
 }
