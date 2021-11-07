@@ -7,7 +7,9 @@ const Sidebar = () => {
   const isOpen = true
   return (
     <aside className={isOpen ? "sidebar show-sidebar" : "sidebar"}>
-      <button className="close-btn" type="button"></button>
+      <button className="close-btn" type="button">
+        <FaTimes />
+      </button>
     </aside>
   )
 }
