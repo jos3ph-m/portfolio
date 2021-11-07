@@ -20,7 +20,9 @@ const Sidebar = () => {
             )
           })}
         </ul>
-        <ul className={isOpen ? "social-links sidebar-links" : null}></ul>
+        <ul className={isOpen ? "social-links sidebar-links" : null}>
+          {socialLinks.map(link => {})}
+        </ul>
       </div>
     </aside>
   )
