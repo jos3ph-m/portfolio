@@ -22,7 +22,11 @@ const Sidebar = () => {
         </ul>
         <ul className={isOpen ? "social-links sidebar-links" : null}>
           {socialLinks.map(link => {
-            return <li key={link.id}></li>
+            return (
+              <li key={link.id}>
+                <a href={link.url}></a>
+              </li>
+            )
           })}
         </ul>
       </div>
