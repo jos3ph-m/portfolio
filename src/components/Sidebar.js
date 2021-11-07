@@ -20,7 +20,7 @@ const Sidebar = () => {
             )
           })}
         </ul>
-        <ul className=""></ul>
+        <ul className={isOpen ? "social-links sidebar-links" : null}></ul>
       </div>
     </aside>
   )
