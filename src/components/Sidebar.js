@@ -11,7 +11,15 @@ const Sidebar = () => {
         <FaTimes />
       </button>
       <div className="side-container">
-        <ul className={isOpen ? "sidebar-links" : null}></ul>
+        <ul className={isOpen ? "sidebar-links" : null}>
+          {links.map(link => {
+            return (
+              <li key={link.id}>
+                <Link to={link.url}>{link.text}</Link>
+              </li>
+            )
+          })}
+        </ul>
       </div>
     </aside>
   )
