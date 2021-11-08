@@ -7,7 +7,9 @@ import "../assets/css/main.css"
 const Layout = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false)
 
-  const toggleSidebar = () => {}
+  const toggleSidebar = () => {
+    setIsOpen()
+  }
 
   return (
     <>
