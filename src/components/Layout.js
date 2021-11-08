@@ -5,7 +5,7 @@ import Footer from "./Footer"
 
 import "../assets/css/main.css"
 const Layout = ({ children }) => {
-  const [isOpen, setIsOpen]
+  const [isOpen, setIsOpen] = useState(false)
   return (
     <>
       <Navbar />
