@@ -6,6 +6,9 @@ import Footer from "./Footer"
 import "../assets/css/main.css"
 const Layout = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false)
+
+  const toggleSidebar = () => {}
+
   return (
     <>
       <Navbar />
