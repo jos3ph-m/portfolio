@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggleSidebar = () => {
-    setIsOpen()
+    setIsOpen(!isOpen)
   }
 
   return (
