@@ -9,7 +9,7 @@ module.exports = {
   siteMetadata: {
     title: `WebDev Portfolio`,
     description: `Awesome WebDev Portfolio built with Gatsby and Strapi`,
-    titleTemplate: `%s | `,
+    titleTemplate: `%s | WebDev Portfolio`,
   },
 
   plugins: [
