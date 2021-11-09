@@ -6,6 +6,9 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: `WebDev Portfolio`,
+  },
 
   plugins: [
     `gatsby-plugin-image`,
