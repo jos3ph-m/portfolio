@@ -11,7 +11,7 @@ module.exports = {
     description: `Awesome WebDev Portfolio built with Gatsby and Strapi`,
     titleTemplate: `%s | WebDev Portfolio`,
     url: `https://strapi-portfolio-project.netlify.app`,
-    twitterUsername: `@jos3ph_m`,
+    twitterUsername: `@`,
   },
 
   plugins: [
