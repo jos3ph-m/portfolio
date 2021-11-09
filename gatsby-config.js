@@ -8,6 +8,7 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: `WebDev Portfolio`,
+    description: `Awesome WebDev Portfolio built with Gatsby and Strapi`,
   },
 
   plugins: [
