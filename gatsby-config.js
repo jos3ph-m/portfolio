@@ -12,6 +12,7 @@ module.exports = {
     titleTemplate: `%s | WebDev Portfolio`,
     url: `https://strapi-portfolio-project.netlify.app`,
     twitterUsername: `@jos3ph_m`,
+    image: `/mainImg.jpg`,
   },
 
   plugins: [
