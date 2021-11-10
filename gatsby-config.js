@@ -14,7 +14,6 @@ module.exports = {
     twitterUsername: `@jos3ph_m`,
     image: `/mainImg.jpg`,
   },
-
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
