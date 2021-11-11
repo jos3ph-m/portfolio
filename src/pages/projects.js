@@ -9,7 +9,7 @@ const ProjectsPage = ({
 }) => {
   return (
     <>
-      <Seo />
+      <Seo title="Projects" />
       <main>
         <section className="projects-page">
           <Projects title="all projects" projects={projects} />
