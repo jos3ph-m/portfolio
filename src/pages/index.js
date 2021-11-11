@@ -11,7 +11,7 @@ const IndexPage = ({ data }) => {
   } = data
   return (
     <>
-      <Seo />
+      <Seo title="Home" />
       <main>
         <Hero />
         <Services />
