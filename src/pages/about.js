@@ -9,6 +9,7 @@ const About = ({ data }) => {
   } = data
   return (
     <>
+      <Seo />
       <section className="about-page">
         <div className="section-center about-center">
           <img
