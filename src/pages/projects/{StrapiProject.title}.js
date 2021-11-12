@@ -5,7 +5,7 @@ import Seo from "../../components/Seo"
 const ProjectTemplate = ({ pageContext: { title }, data }) => {
   return (
     <>
-      <Seo title={data} />
+      <Seo title={data.strapiProject.title.toUpperCase()} />
       <main className="project-template-page">
         <h2>{title}</h2>
         <p>{data.strapiProject.description}</p>
